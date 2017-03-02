@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QR.Logic;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace QR
         public MainPage()
         {
             this.InitializeComponent();
+			Scan s = new Scan();
+			s.TakePicture();
         }
     }
 }
