@@ -7,7 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+	<Grid Background="WhiteSmoke">
+		<StackPanel>
+			<CaptureElement x:Name="PreviewElement" />
+			<TextBlock x:Name="Readed" />
+		</StackPanel>
+	</Grid>
 </Page>
